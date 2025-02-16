@@ -11,7 +11,7 @@ function App() {
 
   return (
     <>
-    <BrowserRouter>
+    <BrowserRouter basename='ems-frontend'>
       <HeaderComponent/>
       <Routes>
       {/* //http://localhost:3000 */}
