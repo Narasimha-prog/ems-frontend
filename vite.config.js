@@ -5,7 +5,8 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/ems-frontend/',
   plugins: [react()],
-  server:{
+  server: {
+    host: '0.0.0.0', // This allows the server to be accessible from external IPs
     port: 3000
   }
 })
